@@ -1,4 +1,4 @@
-// prefer not use var for declaring the variables
+// prefer not use var for declaring the variables for most of the time
 
 let cco=undefined;
 
@@ -29,3 +29,30 @@ game++
 console.log(game)
 ++game
 console.log(game)
+
+console.log("---------------comparisons---------");
+
+console.log(2>1);
+
+console.log("2">1); // automatically converted into a number
+
+console.log(2>"1"); // true
+
+console.log(null>1); // false
+
+console.log(null==0); // false
+
+console.log(undefined==0); // false
+
+console.log(undefined>=0); // false
+
+console.log(undefined<0); // true
+
+// remembr : 
+// == and <= and >= <> <, > work differentely 
+// comparisons convert null into number which is treated as 0 thats why ::  console.log(null>1); // false but console.log (null>=0) // true
+
+// === checks the value as well as the data type 
+
+console.log("5"===5); // false
+console.log("5"==5); // true
