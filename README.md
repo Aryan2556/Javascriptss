@@ -1,2 +1,2 @@
 # Javascriptss
- javascript attempts
+ Javascript attempts
