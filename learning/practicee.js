@@ -79,3 +79,6 @@ for ( i=0;i<5;i++){
     console.log(344);
 }
 console.timeEnd()
+
+window.console.log(window) //  prints the objects used
+
